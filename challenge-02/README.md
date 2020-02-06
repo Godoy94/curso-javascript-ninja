@@ -41,7 +41,7 @@ Crie uma função com as seguintes características:
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
 function verificaValor(x, y, z){
-    if(x === '' || y === '' || z === ''){
+    if(x == undefine || y === undefined || z === undefined){
         alert("Todos os valores devem ser informados");
     } else {
         alert(parseInt(x*y*z+2));
